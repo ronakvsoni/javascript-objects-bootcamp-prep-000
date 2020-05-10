@@ -17,5 +17,5 @@ function removeFromPlaylist(playlist,artistName) {
   delete playlist[artistName]
   return playlist
 }
-var a = removeFromPlaylist(playlist,"jennifer Lopez")
+var a = removeFromPlaylist(playlist,"Jennifer Lopez")
 console.log(a)
