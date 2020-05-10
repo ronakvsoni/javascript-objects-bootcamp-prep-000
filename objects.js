@@ -13,7 +13,7 @@ console.log(newplaylist)
 console.log("Origional")
 console.log(playlist)
 
-function removeFromPlaylist(artistName) {
+function removeFromPlaylist(playlist,artistName) {
   delete playlist[artistName]
   return playlist
 }
